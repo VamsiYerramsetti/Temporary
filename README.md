@@ -4,12 +4,14 @@
 The website uses three primary colours which were derived from the optimal scans logo:
 1. Green: #A3AF00
 2. Blue: #1998F6 
-3. White: #FFFFF
+3. White: #FFFFFF
+
+![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/palette.png)
 
 We have used other colours in spesific parts of the websites as well:
 1. Yellow in the Error Page: #ffff00
 2. Light Blue Gradient used in the "Vragen": linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
-3. Shadows used: #rgba(209, 219, 231,0.7)
+3. Shadows used: rgba(209, 219, 231,0.7)
 
 The colours palette of the pyramid and the sunflower are:
 1. rgb(160, 0, 0)
