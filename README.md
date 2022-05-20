@@ -27,10 +27,15 @@ The frontend of the website heavily uses the bootsrap5 library. The "Vragen", "D
 The page is first split into an appropriate combination of collumns and rows using the gridbox layout, boostrap5 offers. These "boxes" are then converted to flexbox containers where we can enter in the components of the respective pages. By using bootstrap the UI adapts to any screensize and avoids nasty unredable UI.
 
 ### Dashboard UI
-The gridbox layout of the Pyramid dashboard starts with a row contiaing the theme-progress-bar heading "Voortang Bentwoording" and two bootstrap buttons on the left to donwload the raport and to get the score per sub-theme. The rest is split in into three main collumns that comprise of the theme-progress bars, theme-pyramid and the percentage panal. Each progress bar and pyramid level is its own flexbox container. The percentage panal is its own flexbox container.
-In the sunflower version the middle collumn is further split into three collumns where each collumns the required number of circles making up the petals of the sunflower. Each circle is a flexbox button.
-We stuck to using the basic HTML entity codes for the green tick: &#10004, red-circle: &#128308 and percentage-sighn: &#37.
+The gridbox layout of the Pyramid dashboard starts with a row contiaing the theme-progress-bar heading "Voortang Bentwoording" and two bootstrap buttons on the left to donwload the raport and to get the score per sub-theme. The rest is split in into three main collumns that comprise of the theme-progress bars, theme-pyramid and the percentage panal. Each progress bar and pyramid level is its own flexbox container. The percentage panal is its own flexbox container. We stuck to using the basic HTML entity codes for the green tick: &#10004, red-circle: &#128308 and percentage-sighn: &#37.
+
 ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/pyramid.png)
+
+In the sunflower version the middle collumn is further split into three collumns where each collumns the required number of circles making up the petals of the sunflower. Each circle is a flexbox button.
+
+![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/sunflower.png)
+
+
 
 
 ### Vragen UI
