@@ -6,7 +6,7 @@ The website uses three primary colours which were derived from the optimal scans
 2. Blue: #1998F6 
 3. White: #FFFFFF
 
-![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/palette.png)
+![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/palette1.png)
 
 We have used other colours in spesific parts of the websites as well:
 1. Yellow in the Error Page: #ffff00
