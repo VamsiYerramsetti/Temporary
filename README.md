@@ -19,7 +19,7 @@ The colours palette of the pyramid and the sunflower are:
 5. rgb(50, 90, 170)
 
 ## Typography
-The "system-ui" and Lato sans-serif" font family is used through out the whole website. We used the standard heading tags for the headings. 
+The "system-ui" and Lato sans-serif" font family is used through out the whole website. We used the standard HTML heading tags for the headings and default HTML paragrah fontsize for questions and answer text.
 
 ## UI elements (Bootstrap version and elements used) used (and for what things)
 
@@ -36,10 +36,12 @@ In the sunflower version the middle collumn is further split into three collumns
 ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/sunflower.png)
 
 
-
-
 ### Vragen UI
-The "Vragen"(scan page quitionaire) is enitrly based on bootstrap. We do not use a gridlayout and each qution type is its own flexbox container. We used glassmorphism to make the rounded rectangles for each question and heading boces for all questions. The buttons that allow the user to navigate to different themes are all bootstrap based. The scan progress bar uses a flexbox container and is stuck to the bottom of the screen as the user filles out the page via the sticky tage in css. The animation and desighn of the scan progress bar is constructed in the progressb  css class
+The "Vragen"(scan page quitionaire) is enitrly based on bootstrap. We do not use a gridlayout and each qution type is its own flexbox container. We used glassmorphism to make the rounded rectangles for each question and heading boces for all questions. The buttons that allow the user to navigate to different themes are all bootstrap based. The questionaire comprises of four question types: open,radio,checkbox, and checkbox which all use the respective default bootstrap5 input type. The scan progress bar uses a flexbox container and is stuck to the bottom of the screen as the user filles out the page via the css sticky tage. The progress bar incorporates a bootstrap flexbox continer and striped boostrap transformation for the animation. The update_progress_bar() function in script.js increments the width of the progress as questions are filled. The page ends with two bootstrap primary buttons which either Opslaan or Vestuur resulting in auto-save pop up to inform the user the status of his quitinaire progress.
+
+![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/vragen.png)
+
+
 
 ## Logo placement
 ## Other non-trivial design rules you applied
