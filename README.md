@@ -47,4 +47,4 @@ The "Vragen"(scan page quitionaire) is enitrly based on bootstrap. We do not use
 We use the Pptimal-Planet banner in the navigation bar.We also use the circular Optimal-Planet logo as the pistil in the sunflower dashboard.
 ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/OPc-130px.png) ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/OP-flower.png)
 
-## Other non-trivial design rules you applied TBD:
+## Other non-trivial design rules you applied TBD: I will continue on this:
