@@ -3,9 +3,9 @@
 
 ## Color palette
 The website uses three primary colors which were derived from the optimal scans logo:
-1. Green: #A3AF00
-2. Blue: #1998F6 
-3. White: #FFFFFF
+1. Green:  `#A3AF00`
+2. Blue:   `#1998F6`
+3. White:  `#FFFFFF`
 
 ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/palette1.png)
 
@@ -27,7 +27,7 @@ The "system-ui" and Lato sans-serif" font family is used throughout the whole we
 ## UI elements (Bootstrap version and elements used) used (and for what things)
 
 The frontend of the website heavily use the [bootsrap5.1](https://getbootstrap.com/docs/5.0/getting-started/introduction/) library. The "Vragen", "Dashboard", "Error-Page", "Navigation-Bar" and "Logout-Page" all have been designed using this library. We used the following sources in the head tag of the respective HTML files and installed boostrap5 in our poetry file.
-The page is first split into an appropriate combination of columns and rows using the grid box layout, boostrap5 offers. These "boxes" are then converted to flexbox containers where we can enter the components of the respective pages. By using bootstrap the UI adapts to any screen size and avoids nasty unreadable UI.
+The page is first split into an appropriate combination of columns and rows using the [grid system](https://getbootstrap.com/docs/5.0/layout/grid/) grid system, boostrap5 offers. These "boxes" are then converted to [flexbox containers](https://getbootstrap.com/docs/5.0/utilities/flex/) where we can enter the components of the respective pages. By using bootstrap the UI adapts to any screen size and avoids nasty unreadable UI.
 
 ### Dashboard UI
 The grid box layout of the Pyramid dashboard starts with a row containing the theme-progress bar heading "Voortang Bentwoording" and two bootstrap buttons on the left to download the report and to get the score per sub-theme. The rest is split into three main columns that comprise the theme-progress bars, the theme pyramid, and the percentage panel. Each progress bar and pyramid level is its own flexbox container. The percentage panel is its own flexbox container. We stuck to using the basic HTML entity codes for the green tick: &#10004, red-circle: &#128308 and percentage-sign: &#37.
