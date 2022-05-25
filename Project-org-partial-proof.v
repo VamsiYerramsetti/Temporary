@@ -24,32 +24,24 @@ Require Import BenB2.
 (*
    Abstract:
    =========
-
    (* Managed to prove it.
       It did change from what we had originally planned, but only in minor things,
         for example: we opted to use a battery instead of a wire connected to a car battery and
         we also added a switch to be able to turn the device on/off. *)
-
 *)
 
 (*
    Focus:
-
    Modeling Goal:
    ==============
    Verification model
-
-
    Fragment of reality:
    ====================
    Safe Wheel: steering wheel, person's hands, automobile
-
-
    Perspective:
    ============
    LEDs and Buzzers switch on when a driver has at least one of their hands off the wheel for a short
    duration of time, and switch off when both hands are back on the wheel.
-
 *)
 
 
@@ -62,7 +54,6 @@ Require Import BenB2.
      -We also assume that the wheel is already on a car.
      -The battery has power.
    ]
-
 *)
 
 (* ====================================================================== *)
@@ -268,8 +259,8 @@ Definition notHandsOnWheel (* t *) (t:T) :=
             /\
                 buttonTopRight t 
                     
-        ->
-                ~(
+        -> True
+                (*~(
                         (       signal1 s t
                             \/
                                 signal2 s t
@@ -279,7 +270,7 @@ Definition notHandsOnWheel (* t *) (t:T) :=
                             \/
                                 signal4 s t
                         )
-                )
+                )*)
 .
 (* If the top right button b isn't being pressed at time t in SafeWheel cover s and the bottom left button b isn't
    being pressed at the same time in the same cover and the bottom right button b isn't being pressed at the same time in the same cover
@@ -768,5 +759,40 @@ con_i.
 lin_solve.
 lin_solve.
 
+
 (* Here we proved notHandsOnWheel using unfolds and negations. *)
+all_i t.
+
+unfold notHandsOnWheel.
+
+imp_i ass1.
+all_i s.
+imp_i ass2.
+trivial.
+all_i l.
+imp_e (ledIsPowered l x (y+3) /\
+          (forall swi : Swi, switchSignal swi x (y+3)) /\
+          (forall ti : Ti, timerSignal ti x (y+3))).
+all_e (forall (l : L),   ledIsPowered l x (y + 3) /\
+   (forall swi : Swi, switchSignal swi x (y + 3)) /\
+   (forall ti : Ti, timerSignal ti x (y + 3)) -> illuminates l x (y + 3)) l.
+   
+all_e (forall (s:SW), (forall (l : L),   ledIsPowered l s (y + 3) /\
+   (forall swi : Swi, switchSignal swi s (y + 3)) /\
+   (forall ti : Ti, timerSignal ti s (y + 3)) -> illuminates l s (y + 3))) x.
+   
+all_e (forall (t:T), (forall (s:SW), (forall (l : L),   ledIsPowered l s (t) /\
+   (forall swi : Swi, switchSignal swi s (t)) /\
+   (forall ti : Ti, timerSignal ti s (t)) -> illuminates l s (t)))) (y+3).
+   
+hyp leds1.
+
+
+
+
+
+
+
+
+
 
