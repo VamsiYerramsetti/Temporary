@@ -38,7 +38,7 @@ Each progress bar and pyramid level is its own flexbox container. The percentage
 
 In the sunflower version the middle column is further split into three columns where each column the required number of circles making up the petals of the sunflower. Each circle is a flexbox button.
 
-![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/sunflower.png)
+![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/sunflower.png) 
 
 
 ### Vragen UI
