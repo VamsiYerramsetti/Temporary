@@ -53,4 +53,4 @@ The update_progress_bar() function in script.js increments the width of the prog
 ## Iconography
 We use the Optimal-Planet banner in the navigation bar. We also use the circular Optimal-Planet logo as the pistil in the sunflower dashboard. The yellow warning traingle is used in the error-page which is generated in HTML using a combination of filter tags.
 
-![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/OPc-130px.png) ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/OP-flower.png) ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/triangle.png) 
+![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/optimalscans.png) ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/OP-flower.png) ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/triangle.png) 
