@@ -24,7 +24,7 @@ The colours palette of the pyramid and the sunflower are:
 ## Typography
 The [system-ui](https://www.free-fonts.com/system-ui) and [Lato sans-serif](https://befonts.com/lato-sans-serif-font-family.html) font family is used throughout the whole website. We used the standard HTML heading tags for the headings and the default HTML paragraph font size for questions and answer text.
 
-## UI elements (Bootstrap version and elements used) used (and for what things)
+## UI elements
 
 The frontend of the website heavily use the [bootsrap5.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/) library. The "Vragen", "Dashboard", "Error-Page", "Navigation-Bar" and "Logout-Page" all have been designed using this library. We used the following sources in the head tag of the respective HTML files and installed boostrap5 in our poetry file.
 The page is first split into an appropriate combination of columns and rows using the [grid system](https://getbootstrap.com/docs/5.0/layout/grid/) grid system, boostrap5 offers. These "boxes" are then converted to [flexbox containers](https://getbootstrap.com/docs/5.0/utilities/flex/) where we can enter the components of the respective pages. By using bootstrap the UI adapts to any screen size and avoids nasty unreadable UI.
