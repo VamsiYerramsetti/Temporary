@@ -50,6 +50,11 @@ The update_progress_bar() function in script.js increments the width of the prog
 
 ![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/vragen.png)
 
+### Error-Page UI
+The error page is comprised of nested boostrap collumns and is visually enhanced using glassmorphism. The danger-triangle was desighened using a filter tag and the message box is contructed using boostrap bubbles. The error page displays the error codes and messages for the respective errors. 
+
+![GitHub Logo](https://github.com/VamsiYerramsetti/Temporary/blob/main/error-page.png)
+
 ## Iconography
 We use the Optimal-Planet banner in the navigation bar. We also use the circular Optimal-Planet logo as the pistil in the sunflower dashboard. The yellow warning traingle is used in the error-page which is generated in HTML using a combination of filter tags.
 
